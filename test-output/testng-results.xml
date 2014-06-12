@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57968" started-at="2014-06-12T02:17:27Z" finished-at="2014-06-12T02:18:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57968" started-at="2014-06-12T02:17:27Z" finished-at="2014-06-12T02:18:25Z">
+      <class name="selenium_Test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="6598" started-at="2014-06-12T10:17:27Z" finished-at="2014-06-12T10:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="2701" started-at="2014-06-12T10:17:34Z" data-provider="login" finished-at="2014-06-12T10:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[godlike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[t]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[godlike]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="615" started-at="2014-06-12T10:17:36Z" finished-at="2014-06-12T10:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4588" started-at="2014-06-12T10:17:37Z" finished-at="2014-06-12T10:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1163" started-at="2014-06-12T10:17:42Z" data-provider="login" finished-at="2014-06-12T10:17:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[godlike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名或密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="514" started-at="2014-06-12T10:17:43Z" finished-at="2014-06-12T10:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4193" started-at="2014-06-12T10:17:43Z" finished-at="2014-06-12T10:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1292" started-at="2014-06-12T10:17:48Z" data-provider="login" finished-at="2014-06-12T10:17:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[godlike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="526" started-at="2014-06-12T10:17:49Z" finished-at="2014-06-12T10:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4076" started-at="2014-06-12T10:17:49Z" finished-at="2014-06-12T10:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1163" started-at="2014-06-12T10:17:53Z" data-provider="login" finished-at="2014-06-12T10:17:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[god]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名或密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="505" started-at="2014-06-12T10:17:55Z" finished-at="2014-06-12T10:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4100" started-at="2014-06-12T10:17:55Z" finished-at="2014-06-12T10:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1189" started-at="2014-06-12T10:17:59Z" data-provider="login" finished-at="2014-06-12T10:18:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[god]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名或密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="520" started-at="2014-06-12T10:18:00Z" finished-at="2014-06-12T10:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4295" started-at="2014-06-12T10:18:01Z" finished-at="2014-06-12T10:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1268" started-at="2014-06-12T10:18:05Z" data-provider="login" finished-at="2014-06-12T10:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[god]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="520" started-at="2014-06-12T10:18:06Z" finished-at="2014-06-12T10:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4117" started-at="2014-06-12T10:18:07Z" finished-at="2014-06-12T10:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1532" started-at="2014-06-12T10:18:11Z" data-provider="login" finished-at="2014-06-12T10:18:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="854" started-at="2014-06-12T10:18:13Z" finished-at="2014-06-12T10:18:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4124" started-at="2014-06-12T10:18:13Z" finished-at="2014-06-12T10:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1135" started-at="2014-06-12T10:18:18Z" data-provider="login" finished-at="2014-06-12T10:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="515" started-at="2014-06-12T10:18:19Z" finished-at="2014-06-12T10:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="3914" started-at="2014-06-12T10:18:19Z" finished-at="2014-06-12T10:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1069" started-at="2014-06-12T10:18:23Z" data-provider="login" finished-at="2014-06-12T10:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="522" started-at="2014-06-12T10:18:24Z" finished-at="2014-06-12T10:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_Test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+	<LoginLink type="link" propertyName="link" value="立即登录"/>
+	<LoginName type="textfield" propertyName="id" value="KgPopupUserName"/>
+	<LoginPassword type="textfield" propertyName="id" value="KgPopupUserPwd"/>
+	<LoginSubmit type="formsubmit" propertyName="id" value="KgPopupLoginBtn"/>
+	<LoginNotice type="textfield" propertyName="class" value="kg_popup_notice_txt"/>
+	<mynickname type="link" propertyName="id" value="mynickname"/>
+</items>
