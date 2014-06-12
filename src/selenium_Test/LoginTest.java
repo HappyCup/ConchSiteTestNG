@@ -4,7 +4,12 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.concurrent.TimeUnit;
-import org.openqa.selenium.*;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -14,6 +19,7 @@ import static org.testng.Assert.assertEquals;
 
 import test_utils.AutoObjectFactory;
 import test_utils.ExcelDataHelper;
+import test_utils.WebDriverFactory;
 
 public class LoginTest {
 
@@ -25,10 +31,10 @@ public class LoginTest {
 	private boolean acceptNextAlert = true;
 	private AutoObjectFactory objects;
 
+	
 	@BeforeMethod
 	public void setUp() throws Exception {
-		System.setProperty ( "webdriver.firefox.bin" , "D:/Program Files/Mozilla Firefox/firefox.exe" );
-		driver = new FirefoxDriver();
+		driver = WebDriverFactory.getFirefoxDriver();
 		baseUrl = "http://conch.aliapp.com/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		objects=new AutoObjectFactory(objectfile);

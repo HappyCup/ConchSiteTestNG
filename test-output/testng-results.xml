@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57968" started-at="2014-06-12T02:17:27Z" finished-at="2014-06-12T02:18:25Z">
+  <suite name="Suite" duration-ms="89949" started-at="2014-06-12T14:21:21Z" finished-at="2014-06-12T14:22:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="57968" started-at="2014-06-12T02:17:27Z" finished-at="2014-06-12T02:18:25Z">
+    <test name="Test" duration-ms="89949" started-at="2014-06-12T14:21:21Z" finished-at="2014-06-12T14:22:51Z">
       <class name="selenium_Test.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="6598" started-at="2014-06-12T10:17:27Z" finished-at="2014-06-12T10:17:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="9847" started-at="2014-06-12T22:21:21Z" finished-at="2014-06-12T22:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="2701" started-at="2014-06-12T10:17:34Z" data-provider="login" finished-at="2014-06-12T10:17:36Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="2843" started-at="2014-06-12T22:21:31Z" data-provider="login" finished-at="2014-06-12T22:21:34Z">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="615" started-at="2014-06-12T10:17:36Z" finished-at="2014-06-12T10:17:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="860" started-at="2014-06-12T22:21:34Z" finished-at="2014-06-12T22:21:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4588" started-at="2014-06-12T10:17:37Z" finished-at="2014-06-12T10:17:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="7713" started-at="2014-06-12T22:21:35Z" finished-at="2014-06-12T22:21:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1163" started-at="2014-06-12T10:17:42Z" data-provider="login" finished-at="2014-06-12T10:17:43Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="1422" started-at="2014-06-12T22:21:43Z" data-provider="login" finished-at="2014-06-12T22:21:44Z">
           <params>
             <param index="0">
               <value>
@@ -71,15 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="514" started-at="2014-06-12T10:17:43Z" finished-at="2014-06-12T10:17:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="1326" started-at="2014-06-12T22:21:44Z" finished-at="2014-06-12T22:21:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4193" started-at="2014-06-12T10:17:43Z" finished-at="2014-06-12T10:17:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="7100" started-at="2014-06-12T22:21:45Z" finished-at="2014-06-12T22:21:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1292" started-at="2014-06-12T10:17:48Z" data-provider="login" finished-at="2014-06-12T10:17:49Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="1323" started-at="2014-06-12T22:21:52Z" data-provider="login" finished-at="2014-06-12T22:21:54Z">
           <params>
             <param index="0">
               <value>
@@ -105,15 +105,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="526" started-at="2014-06-12T10:17:49Z" finished-at="2014-06-12T10:17:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="1228" started-at="2014-06-12T22:21:54Z" finished-at="2014-06-12T22:21:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4076" started-at="2014-06-12T10:17:49Z" finished-at="2014-06-12T10:17:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="7226" started-at="2014-06-12T22:21:55Z" finished-at="2014-06-12T22:22:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1163" started-at="2014-06-12T10:17:53Z" data-provider="login" finished-at="2014-06-12T10:17:55Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="1443" started-at="2014-06-12T22:22:02Z" data-provider="login" finished-at="2014-06-12T22:22:04Z">
           <params>
             <param index="0">
               <value>
@@ -139,15 +139,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="505" started-at="2014-06-12T10:17:55Z" finished-at="2014-06-12T10:17:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="1148" started-at="2014-06-12T22:22:04Z" finished-at="2014-06-12T22:22:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4100" started-at="2014-06-12T10:17:55Z" finished-at="2014-06-12T10:17:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="6789" started-at="2014-06-12T22:22:05Z" finished-at="2014-06-12T22:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1189" started-at="2014-06-12T10:17:59Z" data-provider="login" finished-at="2014-06-12T10:18:00Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="1438" started-at="2014-06-12T22:22:12Z" data-provider="login" finished-at="2014-06-12T22:22:13Z">
           <params>
             <param index="0">
               <value>
@@ -173,15 +173,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="520" started-at="2014-06-12T10:18:00Z" finished-at="2014-06-12T10:18:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="1176" started-at="2014-06-12T22:22:13Z" finished-at="2014-06-12T22:22:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4295" started-at="2014-06-12T10:18:01Z" finished-at="2014-06-12T10:18:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="6660" started-at="2014-06-12T22:22:14Z" finished-at="2014-06-12T22:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1268" started-at="2014-06-12T10:18:05Z" data-provider="login" finished-at="2014-06-12T10:18:06Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="1243" started-at="2014-06-12T22:22:21Z" data-provider="login" finished-at="2014-06-12T22:22:22Z">
           <params>
             <param index="0">
               <value>
@@ -207,15 +207,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="520" started-at="2014-06-12T10:18:06Z" finished-at="2014-06-12T10:18:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="750" started-at="2014-06-12T22:22:22Z" finished-at="2014-06-12T22:22:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4117" started-at="2014-06-12T10:18:07Z" finished-at="2014-06-12T10:18:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="6574" started-at="2014-06-12T22:22:23Z" finished-at="2014-06-12T22:22:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1532" started-at="2014-06-12T10:18:11Z" data-provider="login" finished-at="2014-06-12T10:18:13Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="1346" started-at="2014-06-12T22:22:29Z" data-provider="login" finished-at="2014-06-12T22:22:31Z">
           <params>
             <param index="0">
               <value>
@@ -241,15 +241,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="854" started-at="2014-06-12T10:18:13Z" finished-at="2014-06-12T10:18:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="1274" started-at="2014-06-12T22:22:31Z" finished-at="2014-06-12T22:22:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="4124" started-at="2014-06-12T10:18:13Z" finished-at="2014-06-12T10:18:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="6575" started-at="2014-06-12T22:22:32Z" finished-at="2014-06-12T22:22:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1135" started-at="2014-06-12T10:18:18Z" data-provider="login" finished-at="2014-06-12T10:18:19Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="1306" started-at="2014-06-12T22:22:39Z" data-provider="login" finished-at="2014-06-12T22:22:40Z">
           <params>
             <param index="0">
               <value>
@@ -275,15 +275,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="515" started-at="2014-06-12T10:18:19Z" finished-at="2014-06-12T10:18:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="1652" started-at="2014-06-12T22:22:40Z" finished-at="2014-06-12T22:22:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="setUp" is-config="true" duration-ms="3914" started-at="2014-06-12T10:18:19Z" finished-at="2014-06-12T10:18:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="setUp" is-config="true" duration-ms="6593" started-at="2014-06-12T22:22:42Z" finished-at="2014-06-12T22:22:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="test1" duration-ms="1069" started-at="2014-06-12T10:18:23Z" data-provider="login" finished-at="2014-06-12T10:18:24Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.LoginTest@37a96]" name="test1" duration-ms="1366" started-at="2014-06-12T22:22:48Z" data-provider="login" finished-at="2014-06-12T22:22:50Z">
           <params>
             <param index="0">
               <value>
@@ -309,7 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@2e4d3abf]" name="tearDown" is-config="true" duration-ms="522" started-at="2014-06-12T10:18:24Z" finished-at="2014-06-12T10:18:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.LoginTest@37a96]" name="tearDown" is-config="true" duration-ms="1143" started-at="2014-06-12T22:22:50Z" finished-at="2014-06-12T22:22:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

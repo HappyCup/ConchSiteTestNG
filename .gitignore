@@ -1,0 +1,14 @@
+#################
+## Eclipse
+#################
+
+*.pydevproject
+.metadata
+bin/
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
