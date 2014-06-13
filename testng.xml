@@ -2,7 +2,8 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="selenium_Test.LoginTest"/>
+    
+      <class name="selenium_Test.RegisterTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

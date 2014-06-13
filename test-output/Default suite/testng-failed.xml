@@ -3,13 +3,24 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="selenium_Test.PasswordInputTest">
         <methods>
+=======
+      <class name="selenium_Test.RegisterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1" invocation-numbers="0 3 6 7 8 9 10 11 12 13 14 15"/>
+>>>>>>> origin/master
           <include name="setUp"/>
           <include name="test1" invocation-numbers="3"/>
           <include name="tearDown"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- selenium_Test.PasswordInputTest -->
+=======
+      </class> <!-- selenium_Test.RegisterTest -->
+>>>>>>> origin/master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
