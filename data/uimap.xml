@@ -6,4 +6,16 @@
 	<LoginSubmit type="formsubmit" propertyName="id" value="KgPopupLoginBtn"/>
 	<LoginNotice type="textfield" propertyName="class" value="kg_popup_notice_txt"/>
 	<mynickname type="link" propertyName="id" value="mynickname"/>
+	
+	<!-- search part -->
+	<SearchInput type="textfield" propertyName="id" value="search"/>
+	<SearchButton type="button" propertyName="id" value="find"/>
+	<SearchNotice type="textfield" propertyName="css" value="#search_apDiv26 table div"/>
+	
+	<!-- 密码域输入测试  -->
+	<PwInputLink type="link" propertyName="link" value="新用户注册"/>
+	<PasswordInput type="textfield" propertyName="id" value="uPassword"/>
+	<PwRightNotice type="textfield" propertyName="css" value="#uPassword_alter i"/>
+	<PwErrorNotice type="textfield" propertyName="css" value="#uPassword_alter span"/>
+	<PasswordSubmit type="formsubmit" propertyName="id" value="uSubmitBtn"/>
 </items>
