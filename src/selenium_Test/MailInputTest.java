@@ -23,7 +23,7 @@ import test_utils.WebDriverFactory;
 
 public class MailInputTest {
 
-	private String datafile="data/test.xls";
+	private String datafile="data/mail.xls";
 	private String objectfile="data/uimap.xml";
 	
 	private WebDriver driver;
@@ -35,12 +35,12 @@ public class MailInputTest {
 	@BeforeMethod
 	public void setUp() throws Exception {
 		driver = WebDriverFactory.getFirefoxDriver();
-		baseUrl = "http://conch.aliapp.com/";
+		baseUrl = "http://conch.aliapp.com";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		objects=new AutoObjectFactory(objectfile);
 	}
 
-	@DataProvider(name="login")
+	@DataProvider(name="mail")
 	public Object[ ][ ] Login_data()
 	{
 		try {
@@ -53,23 +53,22 @@ public class MailInputTest {
 		}
 	}
 	
-	@Test(dataProvider="login")
-	public void test1(String username,String password,String flag,String excepted) throws Exception {
+	@Test(dataProvider="mail")
+	public void test1(String mail,String flag,String excepted) throws Exception {
 		driver.get(baseUrl + "/");
-		objects.fetchWebElement("LoginLink", driver).click();
-		objects.fetchWebElement("LoginName", driver).clear();
-		objects.fetchWebElement("LoginName", driver).sendKeys(username);
-		objects.fetchWebElement("LoginPassword", driver).clear();
-		objects.fetchWebElement("LoginPassword", driver).sendKeys(password);
-		objects.fetchWebElement("LoginSubmit", driver).click();
+		objects.fetchWebElement("MailLink", driver).click();
+		objects.fetchWebElement("MailFill", driver).clear();
+		objects.fetchWebElement("MailFill", driver).sendKeys(mail);
+		
+		objects.fetchWebElement("MailSubmit", driver).click();
 		Thread.sleep(100);
 		if(flag.equals("t")){
-			String LinkTest = objects.fetchWebElement("mynickname", driver).getText().trim();
-			assertEquals(excepted,LinkTest);
+			String LinkTest = objects.fetchWebElement("MailRight", driver).getText().trim();
+			assertEquals(LinkTest,excepted);
 		}
 		else{
-			String LinkTest = objects.fetchWebElement("LoginNotice", driver).getText().trim();
-			assertEquals(excepted,LinkTest);
+			String LinkTest = objects.fetchWebElement("MailError", driver).getText().trim();
+			assertEquals(LinkTest,excepted);
 		}
 	}
 

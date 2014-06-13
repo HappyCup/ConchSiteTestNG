@@ -32,4 +32,12 @@
 	<PwError type="textfield" propertyName="css" value="#uPassword_alter span"/>
 	<RPwError type="textfield" propertyName="css" value="#uRepassword_alter span"/>
 	
+	<MailLink type="link" propertyName="link" value="新用户注册"/>
+	<MailFill type="textfield" propertyName="id" value="uEmail"/>
+	<MailRight type="textfield" propertyName="css" value="#uEmail_alter i"/>
+	<MailError type="textfield" propertyName="css" value="#uEmail_alter span"/>
+	<MailSubmit type="formsubmit" propertyName="id" value="uSubmitBtn"/>
+	
+	
+	
 </items>
