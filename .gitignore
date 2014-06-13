@@ -12,3 +12,7 @@ bin/
 # generated files
 bin/
 gen/
+
+# TestNG output
+test-output/
+
