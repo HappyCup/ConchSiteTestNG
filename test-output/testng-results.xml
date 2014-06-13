@@ -1,46 +1,334 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="6" failed="1" total="9" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34513" started-at="2014-06-13T08:45:06Z" finished-at="2014-06-13T08:45:40Z">
+  <suite name="Default suite" duration-ms="109375" started-at="2014-06-13T11:27:18Z" finished-at="2014-06-13T11:29:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34513" started-at="2014-06-13T08:45:06Z" finished-at="2014-06-13T08:45:40Z">
-      <class name="selenium_Test.PasswordInputTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="setUp" is-config="true" duration-ms="6550" started-at="2014-06-13T16:45:06Z" finished-at="2014-06-13T16:45:13Z">
+    <test name="Default test" duration-ms="109375" started-at="2014-06-13T11:27:18Z" finished-at="2014-06-13T11:29:07Z">
+      <class name="selenium_Test.MailInputTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="14329" started-at="2014-06-13T19:27:18Z" finished-at="2014-06-13T19:27:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="test1" duration-ms="1248" started-at="2014-06-13T16:45:13Z" data-provider="pwValidate" finished-at="2014-06-13T16:45:14Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="4700" started-at="2014-06-13T19:27:33Z" data-provider="mail" finished-at="2014-06-13T19:27:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[123jkl]]>
-=======
-<testng-results skipped="0" failed="12" total="16" passed="4">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="1499061" started-at="2014-06-13T08:05:52Z" finished-at="2014-06-13T08:30:51Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="1499061" started-at="2014-06-13T08:05:52Z" finished-at="2014-06-13T08:30:51Z">
-      <class name="selenium_Test.RegisterTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="12937" started-at="2014-06-13T16:05:52Z" finished-at="2014-06-13T16:06:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="62857" started-at="2014-06-13T16:06:05Z" data-provider="register" finished-at="2014-06-13T16:07:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testname]]>
->>>>>>> origin/master
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-<<<<<<< HEAD
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[邮箱格式错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="536" started-at="2014-06-13T19:27:37Z" finished-at="2014-06-13T19:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="13330" started-at="2014-06-13T19:27:38Z" finished-at="2014-06-13T19:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="10911" started-at="2014-06-13T19:27:51Z" data-provider="mail" finished-at="2014-06-13T19:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[邮箱格式错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="568" started-at="2014-06-13T19:28:02Z" finished-at="2014-06-13T19:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="11167" started-at="2014-06-13T19:28:03Z" finished-at="2014-06-13T19:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="51757" started-at="2014-06-13T19:28:14Z" data-provider="mail" finished-at="2014-06-13T19:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[邮箱格式错误]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at selenium_Test.MailInputTest.test1(MailInputTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:340)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:301)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:06Z" finished-at="2014-06-13T19:29:06Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:610)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:464)
+	at selenium_Test.MailInputTest.tearDown(MailInputTest.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:322)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:301)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="1" started-at="2014-06-13T19:29:07Z" data-provider="mail" finished-at="2014-06-13T19:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@163]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[邮箱格式错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="2" started-at="2014-06-13T19:29:07Z" data-provider="mail" finished-at="2014-06-13T19:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@@163.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[邮箱格式错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="1" started-at="2014-06-13T19:29:07Z" data-provider="mail" finished-at="2014-06-13T19:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@163.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[邮箱格式错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="3" started-at="2014-06-13T19:29:07Z" data-provider="mail" finished-at="2014-06-13T19:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@163.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
                 <![CDATA[t]]>
               </value>
             </param>
@@ -49,1572 +337,73 @@
                 <![CDATA[]]>
               </value>
             </param>
-=======
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[testname]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[t]]>
-              </value>
-            </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"id","selector":"mynickname"}
-Command duration or timeout: 30.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Session ID: 88f5625d-f4e1-4ff6-8418-5f70ed8ab9d0
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"mynickname"}
-Command duration or timeout: 30.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Session ID: 88f5625d-f4e1-4ff6-8418-5f70ed8ab9d0
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
-	at org.openqa.selenium.By$ById.findElement(By.java:214)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
-	at test_utils.AutoObjectFactory.fetchWebElement(AutoObjectFactory.java:68)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:77)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"id","selector":"mynickname"}
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ZengYang/AppData/Local/Temp/anonymous7947353102377473950webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ZengYang/AppData/Local/Temp/anonymous7947353102377473950webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="568" started-at="2014-06-13T16:07:08Z" finished-at="2014-06-13T16:07:09Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10730" started-at="2014-06-13T16:07:09Z" finished-at="2014-06-13T16:07:19Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="2303" started-at="2014-06-13T16:07:19Z" data-provider="register" finished-at="2014-06-13T16:07:22Z">
+        <test-method status="SKIP" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="1" started-at="2014-06-13T19:29:07Z" data-provider="mail" finished-at="2014-06-13T19:29:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[godlike]]>
+                <![CDATA[123@163..com]]>
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[用户名已存在]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
               <value>
                 <![CDATA[f]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="518" started-at="2014-06-13T16:07:22Z" finished-at="2014-06-13T16:07:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="9971" started-at="2014-06-13T16:07:22Z" finished-at="2014-06-13T16:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="2468" started-at="2014-06-13T16:07:32Z" data-provider="register" finished-at="2014-06-13T16:07:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[godlike]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123qq.com]]>
-              </value>
-            </param>
             <param index="2">
-              <value>
-                <![CDATA[123123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[用户名已存在]]>
-              </value>
-            </param>
-            <param index="5">
               <value>
                 <![CDATA[邮箱格式错误]]>
               </value>
             </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="559" started-at="2014-06-13T16:07:35Z" finished-at="2014-06-13T16:07:35Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10668" started-at="2014-06-13T16:07:35Z" finished-at="2014-06-13T16:07:46Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="setUp" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="13018" started-at="2014-06-13T16:07:46Z" data-provider="register" finished-at="2014-06-13T16:07:59Z">
+        <test-method status="SKIP" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="test1" duration-ms="0" started-at="2014-06-13T19:29:07Z" data-provider="mail" finished-at="2014-06-13T19:29:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[godlike]]>
+                <![CDATA[123@163com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[用户名已存在]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
->>>>>>> origin/master
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [用户名已存在] but found [请输入4到20位字符，首位不能为数字]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [用户名已存在] but found [请输入4到20位字符，首位不能为数字]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="tearDown" is-config="true" duration-ms="971" started-at="2014-06-13T16:45:14Z" finished-at="2014-06-13T16:45:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="setUp" is-config="true" duration-ms="4665" started-at="2014-06-13T16:45:15Z" finished-at="2014-06-13T16:45:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="test1" duration-ms="1299" started-at="2014-06-13T16:45:20Z" data-provider="pwValidate" finished-at="2014-06-13T16:45:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[123jk]]>
-=======
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="554" started-at="2014-06-13T16:07:59Z" finished-at="2014-06-13T16:07:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10946" started-at="2014-06-13T16:07:59Z" finished-at="2014-06-13T16:08:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="426549" started-at="2014-06-13T16:08:10Z" data-provider="register" finished-at="2014-06-13T16:15:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[godlike]]>
->>>>>>> origin/master
-              </value>
-            </param>
-            <param index="1">
-              <value>
-<<<<<<< HEAD
                 <![CDATA[f]]>
               </value>
             </param>
             <param index="2">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-=======
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[用户名已存在]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[两次密码不一致]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="644" started-at="2014-06-13T16:15:17Z" finished-at="2014-06-13T16:15:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="13885" started-at="2014-06-13T16:15:18Z" finished-at="2014-06-13T16:15:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="14232" started-at="2014-06-13T16:15:31Z" data-provider="register" finished-at="2014-06-13T16:15:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qqcom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
               <value>
                 <![CDATA[邮箱格式错误]]>
               </value>
             </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
->>>>>>> origin/master
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="tearDown" is-config="true" duration-ms="1014" started-at="2014-06-13T16:45:21Z" finished-at="2014-06-13T16:45:22Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:selenium_Test.MailInputTest@e068ad3]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-06-13T19:29:07Z" finished-at="2014-06-13T19:29:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="setUp" is-config="true" duration-ms="4751" started-at="2014-06-13T16:45:22Z" finished-at="2014-06-13T16:45:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="test1" duration-ms="1856" started-at="2014-06-13T16:45:27Z" data-provider="pwValidate" finished-at="2014-06-13T16:45:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1234567890jklzxc]]>
-=======
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="538" started-at="2014-06-13T16:15:46Z" finished-at="2014-06-13T16:15:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10586" started-at="2014-06-13T16:15:46Z" finished-at="2014-06-13T16:15:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="310907" started-at="2014-06-13T16:15:57Z" data-provider="register" finished-at="2014-06-13T16:21:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
->>>>>>> origin/master
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"css selector","selector":"#Username_alter span"}
-Command duration or timeout: 30.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Session ID: 25d3c6a9-1f0f-45f7-8bdd-d84a00069536
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#Username_alter span"}
-Command duration or timeout: 30.09 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Session ID: 25d3c6a9-1f0f-45f7-8bdd-d84a00069536
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:437)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
-	at test_utils.AutoObjectFactory.fetchWebElement(AutoObjectFactory.java:68)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:81)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"#Username_alter span"}
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ZengYang/AppData/Local/Temp/anonymous3259204508230786873webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ZengYang/AppData/Local/Temp/anonymous3259204508230786873webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="557" started-at="2014-06-13T16:21:08Z" finished-at="2014-06-13T16:21:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10302" started-at="2014-06-13T16:21:08Z" finished-at="2014-06-13T16:21:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="9500" started-at="2014-06-13T16:21:19Z" data-provider="register" finished-at="2014-06-13T16:21:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-<<<<<<< HEAD
-                <![CDATA[t]]>
-=======
-                <![CDATA[123@qq.com]]>
->>>>>>> origin/master
-              </value>
-            </param>
-            <param index="2">
-              <value>
-<<<<<<< HEAD
-                <![CDATA[]]>
-              </value>
-            </param>
-=======
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[两次密码不一致]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [] but found [用户名已存在]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [] but found [用户名已存在]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="533" started-at="2014-06-13T16:21:28Z" finished-at="2014-06-13T16:21:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10482" started-at="2014-06-13T16:21:29Z" finished-at="2014-06-13T16:21:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="47501" started-at="2014-06-13T16:21:39Z" data-provider="register" finished-at="2014-06-13T16:22:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[godlike]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qqcom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[用户名已存在]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[邮箱格式错误]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[两次密码不一致]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [用户名已存在] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [用户名已存在] but found []
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="551" started-at="2014-06-13T16:22:27Z" finished-at="2014-06-13T16:22:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10989" started-at="2014-06-13T16:22:27Z" finished-at="2014-06-13T16:22:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="2448" started-at="2014-06-13T16:22:38Z" data-provider="register" finished-at="2014-06-13T16:22:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[godlike]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qqcom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[用户名已存在]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[邮箱格式错误]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [用户名已存在] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [用户名已存在] but found []
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="533" started-at="2014-06-13T16:22:41Z" finished-at="2014-06-13T16:22:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="11103" started-at="2014-06-13T16:22:41Z" finished-at="2014-06-13T16:22:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="12707" started-at="2014-06-13T16:22:52Z" data-provider="register" finished-at="2014-06-13T16:23:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[godlike]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[用户名已存在]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[两次密码不一致]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [用户名已存在] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [用户名已存在] but found []
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="543" started-at="2014-06-13T16:23:05Z" finished-at="2014-06-13T16:23:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10468" started-at="2014-06-13T16:23:06Z" finished-at="2014-06-13T16:23:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="10054" started-at="2014-06-13T16:23:16Z" data-provider="register" finished-at="2014-06-13T16:23:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[godlike]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qqcom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[用户名已存在]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[邮箱格式错误]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[两次密码不一致]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
->>>>>>> origin/master
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [用户名已存在] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [用户名已存在] but found []
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="tearDown" is-config="true" duration-ms="1007" started-at="2014-06-13T16:45:28Z" finished-at="2014-06-13T16:45:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="setUp" is-config="true" duration-ms="4667" started-at="2014-06-13T16:45:29Z" finished-at="2014-06-13T16:45:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="test1" duration-ms="5256" started-at="2014-06-13T16:45:34Z" data-provider="pwValidate" finished-at="2014-06-13T16:45:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1234567890jklzxcv]]>
-=======
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="581" started-at="2014-06-13T16:23:26Z" finished-at="2014-06-13T16:23:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10740" started-at="2014-06-13T16:23:27Z" finished-at="2014-06-13T16:23:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="6537" started-at="2014-06-13T16:23:37Z" data-provider="register" finished-at="2014-06-13T16:23:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
->>>>>>> origin/master
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[两次密码不一致]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [请输入6-16位的数字、字母或符号。] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [请输入6-16位的数字、字母或符号。] but found []
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:87)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="550" started-at="2014-06-13T16:23:44Z" finished-at="2014-06-13T16:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="11117" started-at="2014-06-13T16:23:44Z" finished-at="2014-06-13T16:23:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="8279" started-at="2014-06-13T16:23:56Z" data-provider="register" finished-at="2014-06-13T16:24:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-<<<<<<< HEAD
-                <![CDATA[s]]>
-=======
-                <![CDATA[123@qqcom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[邮箱格式错误]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
->>>>>>> origin/master
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[两次密码不一致]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [] but found [用户名已存在]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [] but found [用户名已存在]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="530" started-at="2014-06-13T16:24:04Z" finished-at="2014-06-13T16:24:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="10920" started-at="2014-06-13T16:24:04Z" finished-at="2014-06-13T16:24:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="354434" started-at="2014-06-13T16:24:15Z" data-provider="register" finished-at="2014-06-13T16:30:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qqcom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-<<<<<<< HEAD
-                <![CDATA[1234567890jklzxc]]>
-=======
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[邮箱格式错误]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"id","selector":"uUsername"}
-Command duration or timeout: 30.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Session ID: 382d6a57-be9f-4306-80f7-8ec69b505c6d
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"uUsername"}
-Command duration or timeout: 30.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Session ID: 382d6a57-be9f-4306-80f7-8ec69b505c6d
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0.1}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
-	at org.openqa.selenium.By$ById.findElement(By.java:214)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
-	at test_utils.AutoObjectFactory.fetchWebElement(AutoObjectFactory.java:68)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:62)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"id","selector":"uUsername"}
-Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
-System info: host: 'Zeng', ip: '221.239.197.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_45'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ZengYang/AppData/Local/Temp/anonymous3835541789629029649webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ZengYang/AppData/Local/Temp/anonymous3835541789629029649webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="943" started-at="2014-06-13T16:30:10Z" finished-at="2014-06-13T16:30:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="setUp" is-config="true" duration-ms="29367" started-at="2014-06-13T16:30:11Z" finished-at="2014-06-13T16:30:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="test1" duration-ms="9661" started-at="2014-06-13T16:30:40Z" data-provider="register" finished-at="2014-06-13T16:30:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qqcom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[邮箱格式错误]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[请输入6-16位的数字、字母或符号。]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[两次密码不一致]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[f]]>
->>>>>>> origin/master
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [] but found [用户名已存在]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [] but found [用户名已存在]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at selenium_Test.RegisterTest.test1(RegisterTest.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.PasswordInputTest@65e600bf]" name="tearDown" is-config="true" duration-ms="827" started-at="2014-06-13T16:45:39Z" finished-at="2014-06-13T16:45:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium_Test.PasswordInputTest -->
-=======
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Test.RegisterTest@3708beb8]" name="tearDown" is-config="true" duration-ms="1194" started-at="2014-06-13T16:30:50Z" finished-at="2014-06-13T16:30:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium_Test.RegisterTest -->
->>>>>>> origin/master
+      </class> <!-- selenium_Test.MailInputTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
