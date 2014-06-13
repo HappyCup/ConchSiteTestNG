@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium_Test.LoginTest">
+      <class name="selenium_Test.RegisterTest">
         <methods>
           <include name="tearDown"/>
-          <include name="test1" invocation-numbers="1 3 4"/>
+          <include name="test1" invocation-numbers="0 3 6 7 8 9 10 11 12 13 14 15"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- selenium_Test.LoginTest -->
+      </class> <!-- selenium_Test.RegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

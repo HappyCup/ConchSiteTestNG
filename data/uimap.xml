@@ -5,5 +5,19 @@
 	<LoginPassword type="textfield" propertyName="id" value="KgPopupUserPwd"/>
 	<LoginSubmit type="formsubmit" propertyName="id" value="KgPopupLoginBtn"/>
 	<LoginNotice type="textfield" propertyName="class" value="kg_popup_notice_txt"/>
+	
 	<mynickname type="link" propertyName="id" value="mynickname"/>
+	
+	<RegisterLink type="link" propertyName="link" value="新用户注册"/>
+	<RegisterName type="textfield" propertyName="id" value="uUsername"/>
+	<RegisterEmail type="textfield" propertyName="id" value="uEmail"/>
+	<RegisterPassword type="textfield" propertyName="id" value="uPassword"/>
+	<RegisterRPassword type="textfield" propertyName="id" value="uRepassword"/>
+	<RegisterSubmit type="formsubmit" propertyName="id" value="uSubmitBtn"/>
+	
+	<NameExist type="textfield" propertyName="css" value="#Username_alter span"/>
+	<MailFormatError type="textfield" propertyName="css" value="#uEmail_alter span"/>
+	<PwError type="textfield" propertyName="css" value="#uPassword_alter span"/>
+	<RPwError type="textfield" propertyName="css" value="#uRepassword_alter span"/>
+	
 </items>
