@@ -18,7 +18,7 @@ public class PlayTest {
   @BeforeMethod
   public void setUp() throws Exception {
 	  driver = WebDriverFactory.getFirefoxDriver();
-	  baseUrl = "http://conch.aliapp.com";
+	  baseUrl = WebDriverFactory.getBaseUrl();
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 

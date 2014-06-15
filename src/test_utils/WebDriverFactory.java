@@ -44,4 +44,8 @@ public class WebDriverFactory {
 	public static WebDriver getIEDriver(){
 		return new InternetExplorerDriver();
 	}
+	
+	public static String getBaseUrl(){
+		return System.getProperty("baseUrl");
+	}
 }

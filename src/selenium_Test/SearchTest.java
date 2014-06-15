@@ -31,7 +31,7 @@ public class SearchTest {
 	@BeforeMethod
 	public void setUp() throws Exception {
 		driver = WebDriverFactory.getFirefoxDriver();
-		baseUrl = "http://conch.aliapp.com/";
+		baseUrl = WebDriverFactory.getBaseUrl();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		objects=new AutoObjectFactory(objectfile);
 	}
@@ -56,7 +56,7 @@ public class SearchTest {
 	
 	@Test(dataProvider="search")
 	public void test1(String search_key,String flag,String excepted) throws Exception {
-		driver.get(baseUrl);
+		driver.get(baseUrl + "/");
 		objects.fetchWebElement("SearchInput", driver).click();
 		objects.fetchWebElement("SearchInput", driver).clear();
 		objects.fetchWebElement("SearchInput", driver).sendKeys(search_key);

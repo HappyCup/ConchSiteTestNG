@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
-  <test name="Test">
+<suite name="Suite" parallel="true">
+  <test name="Register">
     <classes>
-    
       <class name="selenium_Test.RegisterTest"/>
+      <class name="selenium_Test.PasswordInputTest"/>
+      <class name="selenium_Test.MailInputTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Login">
+    <classes>
+      <class name="selenium_Test.LoginTest"/>
+    </classes>
+  </test>
+  <test name="PlayFunction">
+    <classes>
+      <class name="selenium_Test.PlayTest"/>
+    </classes>
+  </test>
+  <test name="Search">
+    <classes>
+      <class name="selenium_Test.SearchTest"/>
+    </classes>
+  </test>
 </suite> <!-- Suite -->
